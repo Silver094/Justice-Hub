@@ -1,0 +1,264 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* ********************************* Navbar ********************************** */
+
+.navbar {
+  background-color: #fff !important;
+  box-shadow: 0 15px 20px -20px #333;
+
+}
+
+.navbar a {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.menu-active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+
+.donate-item {
+  background-color: #9B6140;
+  height: 60px;
+}
+
+/* ********************************* Carousel ******************************* */
+
+#carousel {
+  max-height: 600px;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  object-position: center;
+}
+
+/* *********************************** Card ******************************** */
+
+.card {
+  border: 0px !important;
+}
+
+.button-59 {
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-59:focus {
+  color: #171e29;
+}
+
+.button-59:hover {
+  border-color: #9B6140;
+  color: #9B6140;
+  fill: #9B6140;
+}
+
+.button-59:active {
+  border-color: #9B6140;
+  color: #9B6140;
+  fill: #9B6140;
+}
+
+@media (min-width: 768px) {
+  .button-59 {
+    min-width: 170px;
+  }
+}
+
+/* ********************************* Support Section ********************* */
+
+.support-section {
+  background-color: #9B6140;
+}
+
+/* ********************************* Circular Image ********************** */
+
+.circular-img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+}
+
+/* *********************************** Footer ****************************** */
+
+.allButFooter {
+  min-height: calc(100vh - 1px);
+}
+
+.footer-css {
+  height: 20px;
+  margin-bottom: 10px;
+}
+
+/* ********************************* NewsLetter Page ********************** */
+.bg {
+  height: 92vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.texxt1 {
+  position: absolute;
+  width: 800px;
+  height: 124.42px;
+  left: 55px;
+  top: 205.5px;
+
+  font-family: 'Jomolhari';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 112px;
+
+  color: #000000;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.48);
+}
+
+.texxt2 {
+  position: absolute;
+  width: 614px;
+  height: 113.31px;
+  left: 57px;
+  top: 329.91px;
+
+  font-family: 'Jomolhari';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 34px;
+
+  color: #000000;
+}
+
+.inputtext1 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 250px;
+  height: 65.76px;
+  left: 63px;
+  top: 506.53px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 3px solid #000000;
+}
+
+.inputtext2 {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 250px;
+  height: 65.76px;
+  left: 358px;
+  top: 506.53px;
+  text-align: center;
+  background: #FFFFFF;
+  border: 3px solid #000000;
+}
+
+.submitbut {
+  position: absolute;
+  width: 164px;
+  height: 65.76px;
+  left: 653px;
+  top: 506.53px;
+  color: white;
+  background: #151515;
+}
+
+/*************************************Donate********************************/
+
+.donate-section {
+  background-image: url('./images/back.png');
+  height: 94vh;
+}
+
+
+.texxt_donate {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 163px;
+  line-height: 43px;
+  margin-top: 14vh !important;
+  /* identical to box height */
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 10px 1px rgba(0, 0, 0, 0.68);
+}
+
+.texxt_doante2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 10px 1px rgb(0 0 0 / 68%);
+}
+
+.texxt_doante3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.button_donate {
+  font-size: 23px;
+  background: #A56947;
+  color: white;
+  border-radius: 11px;
+}
+
+/* *********************************** About Us ******************************* */
+
+.about-hero-section {
+  height: 400px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url('./images/unity.png');
+}
+.para
+{
+  padding-left:25px !important ;
+  font-family:'light';
+  font-size: 25px;
+}
