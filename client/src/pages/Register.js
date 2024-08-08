@@ -26,7 +26,7 @@ const Register = () => {
 
     try {
 
-      const res = await fetch('http://localhost:8001/signup', {
+      const res = await fetch('https://justice-hub.onrender.com/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

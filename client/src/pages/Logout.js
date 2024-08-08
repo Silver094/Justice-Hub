@@ -8,7 +8,7 @@ const Logout = () => {
     const { state, dispatch } = useContext(userContext);
 
     useEffect(() => {
-        fetch('http://localhost:8001/logout', {
+        fetch('https://justice-hub.onrender.com/logout', {
             method: 'GET',
             headers: {
                 Accept: 'application/json',

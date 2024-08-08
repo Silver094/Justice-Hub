@@ -19,7 +19,7 @@ const Login = () => {
   const loginUser = async (event) => {
     event.preventDefault();
 
-    const res = await fetch('http://localhost:8001/login', {
+    const res = await fetch('https://justice-hub.onrender.com/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
